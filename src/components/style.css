@@ -30,7 +30,7 @@
   right: 0px;
   border: none;
   font-size: 15px;
-  background-color: #2f74c0;
+  background-color: #101820FF;
   color: white;
   transition: 0.2s all;
   box-shadow: 0 0 10px black;
@@ -59,10 +59,10 @@
   flex-direction: column;
   padding: 15px;
   border-radius: 5px;
-  background-color: coral;
+  background-color: #101820FF;
 }
 
-.todos__heaading {
+.todos__heading {
     font-size: 30px;
     color: cornsilk;
 }
@@ -73,7 +73,8 @@
   padding: 20px;
   margin-top: 15px;
   transition:  0.2s;
-  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+  background-color: #F2AA4CFF;
+  /* background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg"); */
 }
 
 .todos__single:hover {
@@ -120,7 +121,7 @@
 }
 
 .remove {
-    background-color: darkgreen;
+    background-color: #2D2926FF;
 }
 
 .dragactive{
@@ -128,7 +129,7 @@
 }
 
 .dragcomplete{
-    background-color: red;
+    background-color: #E94B3CFF;
 
 }
 
